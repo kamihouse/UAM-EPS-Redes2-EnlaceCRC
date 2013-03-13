@@ -1,0 +1,48 @@
+/* ****************************************************************************
+ * UAM - EPS - Ingeniería de Tecnologías y Servicios de Telecomunicación
+ * Arquitectura de Redes 2 - Practica 2.
+ * Profesores.:	Saul Labajo Izquierdo.
+ *      	Manuel Ruiz Fernández.
+ *
+ * Proyecto...: Laboratorio 2 Nivel de enlace y CRC
+ * File.......: README
+ * Link Git...: https://github.com/kamihouse/UAM-EPS-Redes2-EnlaceCRC
+ *
+ * Author.....: Thiago Pereira Rosa (thiago.pereirarosa@estudiante.uam.es)
+ *
+ * Construcción de un subnivel sobre el nivel 1, que permita una mayor independencia de
+ * las aplicaciones clientes con los procesos de generación de tramas a nivel MAC.
+ * Created on 06/03/2012, 21:27
+ *************************************************************************** */
+
+1) Archivos:
+
+    - envia.c
+    - recibe.c
+    - Makefile
+    - nivel1a.c // Propriedad de la UAM
+    - nivel1a.h // Propriedad de la UAM
+    - README
+
+
+2) Cómo Instalar:
+
+    - Copie todos los archivos en un directorio de su elección.
+    - Ejecute el comando 'make' en el terminal.
+    - Espere a compilar todos los archivos.
+
+
+3) Cómo Ejecutar:
+
+    - Ejecutar el programa ethd './ethd' con 1º, 2º y 3º Argumentos.
+        - Ej: ethd 120 0 v
+        - Los argumentos e detalles estan en la documentacion: 
+            - https://moodle.uam.es/mod/resource/view.php?id=505027
+            - http://www.ii.uam.es/%7Erc1lab/files/ethd-4.1.1B-64-source.tar.gz
+
+    - Ejecutar el programa con el comando './envia' con 1º y 2º Argumentos.
+        - 1º Argumento: Nombre del Canal, Ej -> UAM
+        - 2º Argumento: Usuario, Ej -> Thiago
+
+    - Ejecutar el programa con el comando './recibe' con 1º Argumento.
+        - 1º Argumento: Nombre del Canal, Ej -> UAM
